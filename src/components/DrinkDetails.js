@@ -4,7 +4,7 @@ import Card from './DrinkDetaisCard'
 import {CircularProgress} from '@material-ui/core'
 
 function DrinkDetails({match}) {
-    const [details , setDetails] = useState("")
+    const [details , setDetails] = useState([])
     const [loadDetails , setLoadDetails]= useState(true)
     const getAllDetails = async () => {
         const res = await Axios.get(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${match.params.id}`)
