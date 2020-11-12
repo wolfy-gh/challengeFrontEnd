@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(240, 239, 239);
+}
+.container {
+  min-height: 82vh;
+  margin: 0 12%;
+  padding: 0 2% 2% 2%;
+}
+.progress{
+  display: flex;
+  margin-top:10% ;
+  margin-left: 40%;
+}

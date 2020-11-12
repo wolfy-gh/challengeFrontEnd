@@ -1,0 +1,29 @@
+.drink_filter{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display : flex;
+    justify-content: center;
+    margin : 2%;
+    background-color: rgb(212, 211, 211);
+    padding : 0 10px;
+    border-radius: 999px;
+    
+}
+.search> input {
+    margin : 0 2%;
+    border : 0;
+    padding : 10px 20px;
+    background-color: rgb(212, 211, 211);
+    outline-style: none;
+    width: 90%;
+}
+.search> h4 {
+    padding : 10px;
+    cursor: pointer;
+}
+.search> .search_icon {
+    padding : 10px;
+    cursor: pointer;
+} 
